@@ -33,7 +33,7 @@ class Main{
                 for(int i = 0; i < limite; i++){
                         int numeros = input.nextInt();
                         vetor[i] = numeros;
-                }
+                }input.close();
                 System.out.println(istPalindromo(vetor));
         }
 }
